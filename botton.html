@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+            background-color: #598;
+        }
+        body {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-family: 'Arial', sans-serif;
+            min-height:  100vh;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+
+        }
+        .mask {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #598;
+        }
+        .bear {
+            width: 100%;
+            background: transparent;
+            transform: translate(0 , 100%);
+        }
+        .bear_swear {
+            display: none;
+            position: absolute;
+            left: 105%;
+            top: 0;
+            background: #fff;
+            font-weight: bolder;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+    </style>
+</body>
+</html>
